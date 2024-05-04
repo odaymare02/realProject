@@ -1,0 +1,225 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+.container
+{
+    width: 80%;
+    margin:auto;
+}
+.mainnav
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px   ;
+}
+.logo
+{
+    width: 20%;
+}
+.logo img
+{
+    width: 80%;
+    display: flex;
+}
+.list 
+{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 15px;
+}
+.list li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #262626;
+    font-size: 14px;
+}
+.list li:hover
+{
+    opacity: 0.7;
+}
+.showcase
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url(../image/slide1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.showcase h2,.showcase p{
+    margin-bottom:10px ;
+}
+.showcase .btn
+{
+    margin-top: 15px;
+}
+.showcase .btn
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+}
+.showcase .btn:hover
+{
+    opacity: 0.7;
+}
+.homecards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.homecards .homecard
+{
+    width: 25%;
+    padding-right: 20px;
+}
+.homecards .homecard:last-child
+{
+    padding-right: 0;
+}
+.homecard img
+{
+    width: 100%;
+    display: flex;
+}
+.homecard h3
+{
+    text-transform: capitalize;
+    padding:15px 0;
+}
+.homecard p
+{
+    margin-bottom: 20px;
+}
+.homecard a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;    
+}
+.xbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: url("../image/xbox/xbox.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    row-gap: 15px;
+    margin-top: 40px;
+    padding: 15px;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.xbox h3
+{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.xbox h3,.xbox p,.xbox a
+{
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.xbox a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    width: fit-content;
+}
+.carbon
+{
+    background-image: url('../image/carbon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 0 30px;
+    height: 40vh;
+    margin-top: 20px;
+}
+.carbon .content h3
+{
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 25px;
+}
+.content
+{
+    width: 55%;
+
+}
+.content p
+{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.content a
+{
+    text-decoration: none;
+    color: #000;
+    background-color:rgb(255, 255, 255);
+    padding: 8px 20px;
+}
+.content a:hover
+{
+    background-color:rgba(255, 255, 255, 0.9);
+}
+.linkinner
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(169, 169, 169, 0.268);
+    padding-top: 15px;
+    margin-top: 5px;
+}
+.linkinner ul
+{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.linkinner ul h4
+{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.linkinner ul a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 12px;
+}
+
